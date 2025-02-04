@@ -156,6 +156,41 @@ section {
 
 /* HEADER */
 
+header{
+    padding: 1rem 0;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+
+.header__logo img {
+    width: 100px;
+}
+
+.header__menu{
+    gap: 1rem;
+}
+
+.header__menu li a {
+    font-size:  0.8rem;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.header__menu li a:hover{
+    color: var(--primary-color);
+}
+
+header .right{
+    gap: 1rem;
+}
+
+.menu-btn{
+    display: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
 
 /* ABOUT */
 

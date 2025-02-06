@@ -251,6 +251,12 @@ header .right{
     font-size: 0.9rem;
 }
 
+.about_details{
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
 
 /* SERVICES */
 

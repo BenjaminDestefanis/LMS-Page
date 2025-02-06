@@ -283,6 +283,11 @@ header .right{
 
 /* SERVICES */
 
+#services .section-subheading,
+#services .section-heading{
+    text-align: right;
+}
+
 
 /* Projects */
 

@@ -408,6 +408,29 @@ header .right{
 
 /* TEAM */
 
+.members{
+    display: flex;
+    gap: 3rem;
+}
+
+.member:nth-child(2),
+.member:nth-child(4){
+    margin-top: 5rem;
+}
+
+.member__img{
+    margin-bottom: 1rem;
+}
+
+.member__content h1 {
+    margin-bottom: 0.25rem;
+}
+
+.member__content p {
+    opacity: 0.4;
+    font-weight: 600;
+}
+
 
 /* TESTIMONIALS */
 

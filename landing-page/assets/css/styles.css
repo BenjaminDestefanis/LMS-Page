@@ -431,6 +431,7 @@ header .right{
 .members{
     display: flex;
     gap: 3rem;
+    justify-content: center;
 }
 
 .member:nth-child(2),

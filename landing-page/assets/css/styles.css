@@ -192,6 +192,9 @@ header .sticky{
     font-size:  0.8rem;
     font-weight: 600;
     transition: color 0.3s;
+    text-decoration: none;
+    color: var(--dark-gray);
+
 }
 
 .header__menu li a:hover{
@@ -237,6 +240,63 @@ header .right{
 .hero__img{
     width: 60%;
 }
+
+
+/* PET STYLES */
+
+.container__pet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -64.5px;
+    margin-top: -85.5px;
+  }
+  
+  .ghost {
+    animation: float 3s ease-out infinite;
+    width: 400px;
+  }
+
+  .ellipse__style{
+    color: #646464;
+  }
+  
+  @keyframes float {
+    50% {
+       transform: translate(0, 20px);
+    }
+  }
+  .shadowFrame {
+    width: 130px;
+    margin-top: 15px;
+    
+  }
+  .shadow {
+    animation: shrink 3s ease-out infinite;
+    transform-origin: center center;
+    
+    ellipse {
+      transform-origin: center center;
+    }
+  }
+  
+  @keyframes shrink {
+    0% {
+      width: 90%;
+      margin: 0 5%;
+    }
+    50% {
+      width: 60%;
+      margin: 0 18%;
+    }
+    100% {
+      width: 90%;
+      margin: 0 5%;
+    }
+  }
+
+
+  /* PET STYLES */
 
 
 /* ABOUT */
@@ -428,6 +488,7 @@ header .right{
 .members{
     display: flex;
     gap: 3rem;
+    justify-content: center;
 }
 
 .member:nth-child(2),
@@ -809,7 +870,7 @@ NOTE: The content below includes copyright notice information;
     animation: beat .25s infinite alternate;
 }
 
- a {
+/*  a {
     text-decoration: none;
     color: var(--light-blue);
     position: relative;
@@ -828,7 +889,7 @@ a::after {
 
 a:hover::after {
     width: 100%;
-}
+} */
 
 
 

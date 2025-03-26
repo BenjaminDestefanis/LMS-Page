@@ -22,6 +22,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #000;
 }
 
 a {
@@ -159,7 +160,6 @@ section {
     position: relative;
     padding-top: 5rem !important;
     padding-bottom: 5rem !important;
-
 }
 
 /* HEADER */
@@ -169,6 +169,8 @@ header{
     width: 100%;
     position: absolute;
     z-index: 999;
+    font-family: var(--primary-font);
+    background-color: #ffffff00;
 }
 
 header .sticky{
@@ -179,6 +181,7 @@ header .sticky{
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 
 .header__logo img {
     width: 100px;

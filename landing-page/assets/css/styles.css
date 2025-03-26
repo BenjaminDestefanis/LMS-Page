@@ -321,6 +321,10 @@ header .right{
     margin-bottom: 1rem;
 }
 
+.feature__icon__img{
+    margin: auto;
+}
+
 .feature__title{
     font-size: 1.2rem;
     font-weight: 600;
@@ -437,6 +441,14 @@ header .right{
 .project__img{
     position: relative;
     min-width: 35%;
+}
+
+.project__img__one{
+    border-radius: 70% 15% / 35% 59%;
+}
+
+.project__img__two{
+    border-radius: 15% 80% / 45% 20%;
 }
 
 .project__img::after{

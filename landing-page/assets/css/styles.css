@@ -357,7 +357,22 @@ header .right{
 }
 
 .about__details-img{
-    width: 50%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.about__details-img img{
+    width: 200px;
+    height: auto;
+}
+
+.about__details-img img:nth-child(1){
+    border-radius: 50%;
+}
+
+.about__details-img img:nth-child(2){
+    border-radius: 70% 15% / 35% 59%;
 }
 
 
@@ -445,6 +460,10 @@ header .right{
 
 .project__img__two{
     border-radius: 15% 80% / 45% 20%;
+}
+
+.project__img__three{
+    border-radius: 70% 15% / 35% 59%;
 }
 
 .project__img::after{
